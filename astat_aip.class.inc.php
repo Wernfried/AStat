@@ -30,7 +30,7 @@ class AStat_AIP extends AStat_root
   protected $max_width;
   protected $seetimerequest;
 
-  function AStat_AIP($prefixeTable, $filelocation)
+  function __construct($prefixeTable, $filelocation)
   {
     parent::__construct($prefixeTable, $filelocation);
 
